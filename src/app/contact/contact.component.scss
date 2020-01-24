@@ -1,12 +1,15 @@
 section.contact-page {
-  margin-top: 200px; 
-  ul {
+  padding-top: 80px;
+  ul.logo-img {
     list-style: none;
     margin: auto;
     padding-left: 0px;
     li {
       display: inline;
-      padding: 0 100px;
+      .icon{
+        max-height: 200px; 
+        border-radius: 50px;
+      }
     }
   }
 }

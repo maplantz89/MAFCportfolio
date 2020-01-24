@@ -12,7 +12,6 @@ import { ContactComponent } from './contact/contact.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
 import { ProjectItemComponent } from './projects/project-list/project-item/project-item.component';
 import { ProjectService } from './Service/project.service';
-import { CaseStudyComponent } from './case-study/case-study.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +23,7 @@ import { CaseStudyComponent } from './case-study/case-study.component';
     ProjectsComponent,
     ContactComponent,
     ProjectListComponent,
-    ProjectItemComponent,
-    CaseStudyComponent
+    ProjectItemComponent
   ],
   imports: [
     BrowserModule,
