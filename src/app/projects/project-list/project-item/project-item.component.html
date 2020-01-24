@@ -1,0 +1,25 @@
+<div class="row project-item">
+  <div class="col-5">
+    <div class="card project-card container">
+      <div class="card-body row card-width">
+        <div class="col">
+          <a style="cursor: pointer">
+            <h2 class="card-title">{{project.name}}</h2>
+            <p class="card-subtitle mb-2 text-muted">{{project.stack}}</p>
+            <p class="card-text">{{project.description}}</p>
+          </a>
+          <button class="btn btn-link" type="button">More Information</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="col-7">
+    <a style="cursor: pointer">
+      <img *ngFor="let imgPath of project.imagePaths" [src]="imgPath.path" alt="{{project.name}}" class="img-responsive"
+        style="max-height: 120px;">
+    </a>
+  </div>
+</div>
