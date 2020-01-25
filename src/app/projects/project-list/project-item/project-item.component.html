@@ -13,12 +13,9 @@
       </div>
     </div>
   </div>
-
-
-
   <div class="col-7">
     <a style="cursor: pointer">
-      <img *ngFor="let imgPath of project.imagePaths" [src]="imgPath.path" alt="{{project.name}}" class="img-responsive"
+      <img *ngFor="let imgPath of project.imagePaths" [src]="imgPath" alt="{{project.name}}" class="img-responsive"
         style="max-height: 120px;">
     </a>
   </div>
