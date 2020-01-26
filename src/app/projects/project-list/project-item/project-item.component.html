@@ -1,15 +1,15 @@
-<div class="row project-item">
+<a class="row project-item" href="{{project.demoLink}}" target="_blank">
   <div class="col-5">
-    <div class="card project-card container">
-      <div class="card-body row card-width">
+    <div class="card container">
+      <div class="card-body row">
         <div class="col">
           <a style="cursor: pointer">
             <h2 class="card-title">{{project.name}}</h2>
             <p class="card-subtitle mb-2 text-muted">{{project.stack}}</p>
             <p class="card-text">{{project.description}}</p>
           </a>
-          <button *ngIf='project.caseStudy' class="btn btn-link" type="button">Case Study</button>
-          <button *ngIf='!project.caseStudy' class="btn btn-link" type="button">Live Demo</button>
+          <button *ngIf='project.caseStudy' class="btn" type="button">Case Study</button>
+          <button *ngIf='!project.caseStudy' class="btn" type="button">Live Demo</button>
         </div>
       </div>
     </div>
@@ -20,4 +20,4 @@
         style="max-height: 250px;">
     </a>
   </div>
-</div>
+</a>

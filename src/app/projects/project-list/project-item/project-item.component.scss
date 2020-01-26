@@ -1,6 +1,23 @@
 .project-item {
   margin: 25px auto;
-  .card-width {
-    max-width: 600px;
+  .card{
+    -webkit-box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+    box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+    h2{
+      color: #5F6C9B;
+    }
+    p{
+      color: #4B4B4B;
+    }
+    button{
+      color: #4B4B4B;
+      margin-top: 15px; 
+      border: 1px solid #C48AD9;
+    }
+    button:hover{
+      background-color: #C48AD9;
+      color: white;
+    }
   }
 }

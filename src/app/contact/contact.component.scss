@@ -5,10 +5,17 @@ section.contact-page {
     margin: auto;
     padding-left: 0px;
     li {
+      
       display: inline;
       .icon{
         max-height: 200px; 
         border-radius: 50px;
+        -webkit-box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+        -moz-box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+        box-shadow: 4px 11px 34px -32px rgba(0,0,0,0.75);
+      }
+      a{
+        color: rgb(89, 89, 89);
       }
     }
   }

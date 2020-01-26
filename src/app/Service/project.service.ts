@@ -8,17 +8,24 @@ export class ProjectService {
       'Angular, Bootstrap, HTML, Sass',
       'Coming Soon - Passion project - Frontend Development. Send It is a new fresh way to track your bouldering progress and log all your climbs...',
       [ 
-        'https://www.willcookforsmiles.com/wp-content/uploads/2019/02/French-Toast-Brioche.jpg'
+        '../../assets/Images/SendIt/SendIt-Login.png',
+        '../../assets/Images/SendIt/SendIt-Loading.png',
+        '../../assets/Images/SendIt/SendIt-Climbs.png',
+        '../../assets/Images/SendIt/SendIt-Dash.png'
       ],
-      false),
+      false,
+      'https://sprout-app.now.sh/'
+      ),
     new Project(
       'Tutor Center',
       'Adobe XD, Tree Testing, HTML, CSS, Bootstrap',
       'Coming Soon - Redesign Case Study. Is this just because this description is too short for it to take up the same amount of space?',
       [
-        'https://ironcodestudio.com/wp-content/uploads/2015/03/css-remove-horizontal-scrollbar.jpg'
+        '../../assets/Images/TutorCenter/TutorCenterArch.png'
       ],
-      true),
+      true,
+      'https://sprout-app.now.sh/'
+      ),
     new Project(
       'Sprout',
       'React, Node.js, PostgreSQL',
@@ -26,15 +33,19 @@ export class ProjectService {
       [
         '../../assets/Images/Sprout/SproutInAction2.png'
       ],
-      false),
+      false,
+      'https://sprout-app.now.sh/'
+      ),
     new Project(
       'Spaced Repetition',
       'React, Node.js, PostgreSQL',
-      'Spaced Repetition is a responsive web application that allows users to learn a foreign language. The application utilizes an algorithm to implement the spaced repetition learning technique, which allows for more effective learning of a new language. Our application currently allows users to learn Italian, but is structured for the potential to add additional languages in the future.',
+      'Spaced Repetition is a responsive web application that allows users to learn a foreign language, by utilizes an algorithm to implement allowing for a more effective learning experience.',
       [
-        '../../assets/Images/Sprout/dashboard.png'
+        '../../assets/Images/SpacedRepetition/dashboard.png'
       ],
-      false),
+      false,
+      'https://spaced-repetition.mac-thinkful.now.sh/register/'
+      ),
   ];
 
   getProjects() {
