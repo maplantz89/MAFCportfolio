@@ -1,10 +1,26 @@
 nav {
-  margin-bottom: 100px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  -webkit-box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
+  box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
+
+  li.active {
+    a {
+      color: #74D9C2;
+    }
+  }
+
+  margin-bottom: 60px;
   vertical-align: middle;
+
   .logo {
     padding-left: 50px;
   }
+
   a {
-    color: #5F6C9B
+    color: rgb(106, 105, 105)
   }
 }

@@ -8,16 +8,17 @@
       color: #5F6C9B;
     }
     p{
-      color: #4B4B4B;
+      color:rgb(106, 105, 105);
     }
     button{
-      color: #4B4B4B;
+      color: #74D9C2;
       margin-top: 15px; 
-      border: 1px solid #C48AD9;
+      border: 1px solid #74D9C2;
     }
     button:hover{
-      background-color: #C48AD9;
+      background-color: #74D9C2;
       color: white;
+      transition: all 300ms;
     }
   }
 }
