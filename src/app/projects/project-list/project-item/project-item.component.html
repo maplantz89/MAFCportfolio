@@ -8,7 +8,8 @@
             <p class="card-subtitle mb-2 text-muted">{{project.stack}}</p>
             <p class="card-text">{{project.description}}</p>
           </a>
-          <button class="btn btn-link" type="button">More Information</button>
+          <button *ngIf='project.caseStudy' class="btn btn-link" type="button">Case Study</button>
+          <button *ngIf='!project.caseStudy' class="btn btn-link" type="button">Live Demo</button>
         </div>
       </div>
     </div>
@@ -16,7 +17,7 @@
   <div class="col-7">
     <a style="cursor: pointer">
       <img *ngFor="let imgPath of project.imagePaths" [src]="imgPath" alt="{{project.name}}" class="img-responsive"
-        style="max-height: 120px;">
+        style="max-height: 250px;">
     </a>
   </div>
 </div>
