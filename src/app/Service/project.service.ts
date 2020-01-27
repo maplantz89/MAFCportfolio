@@ -14,17 +14,19 @@ export class ProjectService {
         '../../assets/Images/SendIt/SendIt-Dash.png'
       ],
       false,
-      'https://sprout-app.now.sh/'
+      'https://github.com/maplantz89/Send-It-Ang',
+      true
     ),
     new Project(
-      'Tutor Center',
+      'Tutor Center (Coming Soon)',
       'Redesign Case Study - Adobe XD, Tree Testing, HTML, CSS, Bootstrap',
-      '(Coming Soon) Tutor Center is a redesign case study centered around user research and user experience.',
+      'Tutor Center is a redesign case study centered around user research and user experience.',
       [
         '../../assets/Images/TutorCenter/TutorCenterArch.png'
       ],
       true,
-      'https://sprout-app.now.sh/'
+      'https://github.com/maplantz89',
+      false
     ),
     new Project(
       'Sprout',
@@ -34,7 +36,8 @@ export class ProjectService {
         '../../assets/Images/Sprout/SproutInAction2.png'
       ],
       false,
-      'https://sprout-app.now.sh/'
+      'https://sprout-app.now.sh/',
+      true
     ),
     new Project(
       'Spaced Repetition',
@@ -44,7 +47,8 @@ export class ProjectService {
         '../../assets/Images/SpacedRepetition/dashboard.png'
       ],
       false,
-      'https://spaced-repetition.mac-thinkful.now.sh/register/'
+      'https://spaced-repetition.mac-thinkful.now.sh/register/',
+      true
     ),
     new Project(
       'myCookbook',
@@ -54,7 +58,8 @@ export class ProjectService {
         '../../assets/Images/myCookbook/cookbookApp.png'
       ],
       false,
-      'https://my-cookbook-app.maplantz89.now.sh/login'
+      'https://my-cookbook-app.maplantz89.now.sh/login',
+      true
     )
   ];
 

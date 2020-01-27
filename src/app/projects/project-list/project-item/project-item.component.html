@@ -1,4 +1,4 @@
-<a class="row project-item" href="{{project.demoLink}}" target="_blank">
+<a class="row project-item" href="{{project.demoLink}}" target="_blank" [ngClass]="{'disabled': !project.ready}">
   <div class="col-5">
     <div class="card container">
       <div class="card-body row">
