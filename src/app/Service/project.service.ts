@@ -20,7 +20,7 @@ export class ProjectService {
     new Project(
       'Tutor Center (Coming Soon)',
       'Redesign Case Study - Adobe XD, Tree Testing, HTML, CSS, Bootstrap',
-      'Tutor Center is a redesign case study centered around user research and user experience.',
+      'Tutor Center is a redesign case study centered around user research and user experience. Includes explaination of how user-centered design is implemented as well as analysis of data collected during research phase.',
       [
         '../../assets/Images/TutorCenter/TutorCenterArch.png'
       ],
