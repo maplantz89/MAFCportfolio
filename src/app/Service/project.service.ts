@@ -30,7 +30,7 @@ export class ProjectService {
     ),
     new Project(
       'Sprout',
-      'Full-stack Appliction - React, Node.js, PostgreSQL',
+      'Full-stack Application - React, Node.js, PostgreSQL. Example Teacher Login - Email: teacher3@email.com / Password: Pass1234! / Student Login - MCypress',
       'Sprout is a formative assessment tool used to help teachers deliver specific, goal-oriented, and timely feedback in the classroom. My primary contributions include the student dashboard page as well as backend testing.',
       [
         '../../assets/Images/Sprout/SproutInAction2.png'
@@ -41,7 +41,7 @@ export class ProjectService {
     ),
     new Project(
       'Spaced Repetition',
-      'Full-stack Appliction - React, Node.js, PostgreSQL',
+      'Full-stack Application- React, Node.js, PostgreSQL. Example Username: Test / Password: Pass1234!',
       'Spaced Repetition is a responsive web application that allows users to learn a foreign language, by utilizes an algorithm to implement allowing for a more effective learning experience. My primary contributions including styling/design and collaborating with team members around the algorithm in the server.',
       [
         '../../assets/Images/SpacedRepetition/dashboard.png'
@@ -52,7 +52,7 @@ export class ProjectService {
     ),
     new Project(
       'myCookbook',
-      'Full-stack Appliction - React, Node.js, PostgreSQL',
+      'Full-stack Application - React, Node.js, PostgreSQL. Example Username: test / Password: Test1234!',
       'myCookbook built entirely, idea to deployment in two weeks. MyCookbook is intended to allows users to search, create and organize recipes into multiple cookbooks.',
       [
         '../../assets/Images/myCookbook/cookbookApp.png'
