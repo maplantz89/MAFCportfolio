@@ -6,7 +6,7 @@ export class ProjectService {
     new Project(
       'Send It',
       'Frontend Project - Angular, Bootstrap, HTML, Sass',
-      '(Work In Progress) SendIt is a new fresh way to track your bouldering progress and log all your climbs. My climbing and life partner, Aaron Fields-Cypress did the design work while I am responsible for the frontend development.',
+      '(Work In Progress) SendIt is a new fresh way to track your bouldering progress and log all your climbs. My climbing and life partner, Aaron Fields-Cypress did the design work while I am responsible for the frontend development. Note: SendIt is designed for mobile application only, display on full screen is not the intent.',
       [
         './assets/Images/SendIt/SendIt-Login.png',
         './assets/Images/SendIt/SendIt-Loading.png',
