@@ -14,7 +14,7 @@ export class ProjectService {
         './assets/Images/SendIt/SendIt-Dash.png'
       ],
       false,
-      'https://github.com/maplantz89/Send-It-Ang',
+      'https://sendit.maplantz89.now.sh/dashboard',
       true
     ),
     new Project(
