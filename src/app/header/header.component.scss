@@ -24,3 +24,11 @@ nav {
     color: rgb(106, 105, 105)
   }
 }
+
+
+
+@media screen and (max-device-width: 640px){
+  nav{
+    margin-bottom: 15px; 
+  }
+}

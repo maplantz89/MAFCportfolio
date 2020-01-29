@@ -23,3 +23,13 @@ section.contact-page {
     }
   }
 }
+
+
+@media screen and (max-device-width: 640px){
+  section.contact-page {
+    padding-top: 15px;
+    li{
+      margin-bottom: 50px;
+    }
+  }
+}
