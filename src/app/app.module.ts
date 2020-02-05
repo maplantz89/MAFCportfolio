@@ -13,6 +13,9 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
 import { ProjectItemComponent } from './projects/project-list/project-item/project-item.component';
 import { ProjectService } from './Service/project.service';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatSidenavModule} from '@angular/material/sidenav';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,9 @@ import { ProjectService } from './Service/project.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSidenavModule
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]
