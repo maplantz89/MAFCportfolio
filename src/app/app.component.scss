@@ -5,8 +5,12 @@ mat-sidenav {
 
   ul {
     list-style: none;
+    clear: right;
     a{
       color: rgb(106, 105, 105);
+    }
+    li{
+      padding: 10px; 
     }
     li.active {
       a {
@@ -20,9 +24,6 @@ mat-sidenav {
     background-color: white;
     color: rgb(106, 105, 105);
     border: none;
-  }
-
-  .nav {
-    border: green 2px solid;
+    margin-bottom: 20px; 
   }
 }

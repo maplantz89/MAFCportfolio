@@ -1,8 +1,8 @@
 <app-header></app-header>
-<mat-sidenav #sidenav position="end" class="nav">
+<mat-sidenav #sidenav position="end">
   <div>
     <button class="btn btn-secondary close-btn" type="button" (click)=alertSideNav()>X</button>
-    <ul>
+    <ul class="nav-list">
       <li routerLinkActive="active">
         <a routerLink="/about">About</a>
       </li>
