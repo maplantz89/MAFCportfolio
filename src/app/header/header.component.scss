@@ -2,11 +2,15 @@ nav {
   background-color: white;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 900;
   -webkit-box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
   box-shadow: 4px 11px 34px -32px rgba(0, 0, 0, 0.35);
 
+  li {
+    padding: 15px;
+  }
+  
   li.active {
     a {
       color: #74D9C2;
@@ -23,12 +27,19 @@ nav {
   a {
     color: rgb(106, 105, 105)
   }
+  mat-sidenav-container{
+    background-color: white;
+    button.btn-open{
+      background-color: white;
+      color: rgb(106, 105, 105);
+      margin-right: 2.5rem;
+    }
+  }
 }
 
-
-
-@media screen and (max-device-width: 640px){
-  nav{
-    margin-bottom: 15px; 
+// this width and smaller...
+@media screen and (max-device-width: 770px) {
+  nav {
+    margin-bottom: 15px;
   }
 }

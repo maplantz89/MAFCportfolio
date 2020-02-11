@@ -1,6 +1,14 @@
 import { Project } from './project.model';
+import { Subject, Observable } from 'rxjs';
 
 export class ProjectService {
+
+  private _sidenav = new Subject<string>();
+  sidenav: Observable<string> = this._sidenav.asObservable();
+
+  alertToggle(toggle: string){
+    this._sidenav.next(toggle);
+  }
 
   private project: Project[] = [
     new Project(

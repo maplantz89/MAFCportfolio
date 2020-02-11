@@ -1,26 +1,26 @@
-<mat-sidenav-container class="navbar row justify-content-between" role="navigation">
-
-  <!-- when open -->
-  <mat-sidenav #sidenav position="end">
-    <button (click)="sidenav.toggle()">X</button>
-    <div class="col-md-4">
-      <ul class="nav navbar links">
-        <li routerLinkActive="active"><a routerLink="/about">About</a></li>
-        <li routerLinkActive="active"><a routerLink="/projects">Projects</a></li>
-        <li><a href="./assets/Resume/FrontendResume.pdf" target="_blank">Resume</a></li>
-        <li routerLinkActive="active"><a routerLink="/contact">Contact</a></li>
-      </ul>
-    </div>
-  </mat-sidenav>
-
-  <!-- when closed -->
-  <mat-sidenav-content>
-    <div class="col-4 navbar-brand logo text-center" routerLink="/about">
-      <img src="./assets/Images/MClogo.png" alt="MC Logo" style="height: 70px;">
-    </div>
-    <button class="col-4" (click)="sidenav.toggle()">
-      ICON
-    </button>
-  </mat-sidenav-content>
-  
-</mat-sidenav-container>
+<nav class="navbar row" role="navigation">
+  <div class="navbar-brand logo text-center" routerLink="/about">
+    <img src="./assets/Images/MClogo.png" alt="MC Logo" style="height: 70px;">
+  </div>
+  <mat-sidenav-container class="d-block d-sm-none">
+    <mat-sidenav-content>
+      <button class="btn btn-open" type="button" (click)=alertSideNav()>X</button>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <div class=" d-none d-sm-block">
+    <ul class="nav navbar links">
+      <li routerLinkActive="active">
+        <a routerLink="/about">About</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/projects">Projects</a>
+      </li>
+      <li>
+        <a href="./assets/Resume/FrontendResume.pdf" target="_blank">Resume</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>

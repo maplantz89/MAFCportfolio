@@ -1,12 +1,27 @@
-<!-- for non mobile -->
 <app-header></app-header>
+<mat-sidenav #sidenav position="end" class="nav">
+  <div>
+    <button class="btn btn-secondary close-btn" type="button" (click)=alertSideNav()>X</button>
+    <ul>
+      <li routerLinkActive="active">
+        <a routerLink="/about">About</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/projects">Projects</a>
+      </li>
+      <li>
+        <a href="./assets/Resume/FrontendResume.pdf" target="_blank">Resume</a>
+      </li>
+      <li routerLinkActive="active">
+        <a routerLink="/contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</mat-sidenav>
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col">
       <router-outlet></router-outlet>
     </div>
   </div>
 </div>
-
-<!-- for mobile -->
-<!-- <app-footer></app-footer> -->

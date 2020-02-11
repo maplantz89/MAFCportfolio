@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProjectListComponent } from './projects/project-list/project-list.component';
@@ -14,7 +13,7 @@ import { ProjectItemComponent } from './projects/project-list/project-item/proje
 import { ProjectService } from './Service/project.service';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     HomeComponent,
     PageNotFoundComponent,
     HeaderComponent,
-    FooterComponent,
     ProjectsComponent,
     ContactComponent,
     ProjectListComponent,

@@ -1,0 +1,28 @@
+mat-sidenav {
+  z-index: 999;
+  width: 45%;
+  background-color: white;
+
+  ul {
+    list-style: none;
+    a{
+      color: rgb(106, 105, 105);
+    }
+    li.active {
+      a {
+        color: #74D9C2;
+      }
+    }
+  }
+
+  button.close-btn {
+    float: right;
+    background-color: white;
+    color: rgb(106, 105, 105);
+    border: none;
+  }
+
+  .nav {
+    border: green 2px solid;
+  }
+}
