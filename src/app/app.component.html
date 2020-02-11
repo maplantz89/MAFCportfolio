@@ -1,5 +1,5 @@
 <app-header></app-header>
-<mat-sidenav #sidenav position="end">
+<mat-sidenav [fixedInViewport]="true" mode="over" #sidenav position="end">
   <div>
     <button class="btn btn-secondary close-btn" type="button" (click)=alertSideNav()>X</button>
     <ul class="nav-list">

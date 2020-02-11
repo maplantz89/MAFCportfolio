@@ -34,6 +34,9 @@ nav {
       color: rgb(106, 105, 105);
       margin-right: 2.5rem;
     }
+    mat-sidenav-content{
+      z-index: 999;
+    }
   }
 }
 
