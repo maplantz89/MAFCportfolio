@@ -20,11 +20,15 @@ mat-sidenav {
     }
   }
 
-  button.close-btn {
+  button.close-btn.btn-side-nav {
     float: right;
     background-color: white;
     color: rgb(106, 105, 105);
     border: none;
     margin-bottom: 20px; 
+    padding-right: 25px;
+  }
+  button.btn-side-nav{
+    font-size: 2em;
   }
 }

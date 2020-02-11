@@ -29,10 +29,11 @@ nav {
   }
   mat-sidenav-container{
     background-color: white;
-    button.btn-open{
+    button.btn-side-nav{
       background-color: white;
       color: rgb(106, 105, 105);
       margin-right: 2.5rem;
+      font-size: 2em;
     }
     mat-sidenav-content{
       z-index: 999;
@@ -43,6 +44,6 @@ nav {
 // this width and smaller...
 @media screen and (max-device-width: 770px) {
   nav {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
   }
 }
