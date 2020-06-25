@@ -12,6 +12,9 @@ import { ProjectListComponent } from './projects/project-list/project-list.compo
 import { ProjectItemComponent } from './projects/project-list/project-item/project-item.component';
 import { ProjectService } from './Service/project.service';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core'; 
+import { faFilm } from '@fortawesome/free-solid-svg-icons';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSidenavModule } from '@angular/material/sidenav';
 
@@ -30,9 +33,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSidenavModule
+    MatSidenavModule,
+    FontAwesomeModule
   ],
   providers: [ProjectService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(){
+    library.add(faFilm)
+  }
+}

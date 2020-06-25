@@ -13,8 +13,8 @@ export class ProjectService {
   private project: Project[] = [
     new Project(
       'Send It',
-      'Frontend Project - Angular, Bootstrap, HTML, Sass',
-      '(Work In Progress) SendIt is a new fresh way to track your bouldering progress and log all your climbs. My climbing and life partner, Aaron Fields-Cypress did the design work while I am responsible for the frontend development. Note: SendIt is designed for mobile application only, display on full screen is not the intent.',
+      'Full Stack Mobile App - Angular, Bootstrap, HTML, Sass, Node, postgreSQL',
+      '(Work In Progress) SendIt is a new fresh way to track your bouldering progress and log all your climbs. Implementing user-centered design, currently collecting data to better inform the flow and design of the application. Demo coming soon.',
       [
         './assets/Images/SendIt/SendIt-Login.png',
         './assets/Images/SendIt/SendIt-Loading.png',
@@ -22,18 +22,20 @@ export class ProjectService {
         './assets/Images/SendIt/SendIt-Dash.png'
       ],
       false,
-      'https://sendit.maplantz89.now.sh/dashboard',
-      true
+      '',
+      false
     ),
     new Project(
-      'Tutor Center (Coming Soon)',
-      'Redesign Case Study - Adobe XD, Tree Testing, HTML, CSS, Bootstrap',
-      'Tutor Center is a redesign case study centered around user research and user experience. Includes explaination of how user-centered design is implemented as well as analysis of data collected during research phase.',
+      'White Dot',
+      'Full Stack Mobile App - Angular, Ionic, HTML, CSS, Bootstrap, Node, postgreSQL',
+      '(Work In Progress) White Dot is an application designed to record and track your bowling adventures. Partnered with my husband, I am responsible for the backend/database as well as contributing to frontend development. Demo coming soon.',
       [
-        './assets/Images/TutorCenter/TutorCenterArch.png'
+        './assets/Images/WhiteDot/whiteDotLogin.png',
+        './assets/Images/WhiteDot/whiteDotHome.png',
+        './assets/Images/WhiteDot/whiteDotScore.png'
       ],
-      true,
-      'https://github.com/maplantz89',
+      false,
+      '',
       false
     ),
     new Project(
