@@ -25,19 +25,19 @@ export class ProjectService {
       '',
       false
     ),
-    new Project(
-      'White Dot',
-      'Full Stack Mobile App - Angular, Ionic, HTML, CSS, Bootstrap, Node, postgreSQL',
-      '(Work In Progress) White Dot is an application designed to record and track your bowling adventures. Partnered with my husband, I am responsible for the backend/database as well as contributing to frontend development. Demo coming soon.',
-      [
-        './assets/Images/WhiteDot/whiteDotLogin.png',
-        './assets/Images/WhiteDot/whiteDotHome.png',
-        './assets/Images/WhiteDot/whiteDotScore.png'
-      ],
-      false,
-      '',
-      false
-    ),
+    // new Project(
+    //   'White Dot',
+    //   'Full Stack Mobile App - Angular, Ionic, HTML, CSS, Bootstrap, Node, postgreSQL',
+    //   '(Work In Progress) White Dot is an application designed to record and track your bowling adventures. Partnered with my husband, I am responsible for the backend/database as well as contributing to frontend development. Demo coming soon.',
+    //   [
+    //     './assets/Images/WhiteDot/whiteDotLogin.png',
+    //     './assets/Images/WhiteDot/whiteDotHome.png',
+    //     './assets/Images/WhiteDot/whiteDotScore.png'
+    //   ],
+    //   false,
+    //   '',
+    //   false
+    // ),
     new Project(
       'Sprout',
       'Full-stack Application - React, Node.js, PostgreSQL. Example Teacher Login - Email: teacher3@email.com / Password: Pass1234! / Student Login - MCypress',
