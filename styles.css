@@ -502,6 +502,23 @@ footer.site a { color: var(--ink-soft); }
 .cs-meta .m .k { font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); font-weight: 700; margin-bottom: 4px; }
 .cs-meta .m .v { font-size: 14px; font-weight: 600; }
 
+.cs-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  background: var(--navy-deep);
+  border-radius: var(--radius);
+  padding: 24px 28px;
+  margin-top: 28px;
+}
+
+.cs-download h3 { font-family: var(--serif); color: #fff; font-size: 16.5px; margin: 0 0 6px; }
+.cs-download p { color: #c9c6bc; font-size: 13.8px; margin: 0; max-width: 56ch; }
+.cs-download .btn-primary { background: var(--gold); color: #241704; white-space: nowrap; flex-shrink: 0; }
+.cs-download .btn-primary:hover { background: #bf8938; }
+
 .cs-jump {
   display: flex;
   flex-wrap: wrap;
@@ -664,6 +681,23 @@ table.data tr:last-child td { border-bottom: none; }
 .finding-block p:last-child { margin-bottom: 0; }
 .finding-block .fb-label { font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--ink-soft); letter-spacing: 0.04em; margin: 10px 0 2px; }
 
+.mini-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+}
+
+.mini-case {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px 26px;
+}
+
+.mini-case h3 { font-family: var(--serif); font-size: 17px; margin: 8px 0 10px; color: var(--navy-deep); }
+.mini-case .tags { margin-bottom: 12px; }
+.mini-case p:not(.scenario-num) { font-size: 14px; color: var(--ink-soft); margin: 0; }
+
 .conclusion {
   background: #eef3ee;
   border: 1px solid #d3e3d6;
@@ -695,10 +729,11 @@ table.data tr:last-child td { border-bottom: none; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 860px) {
-  .hero-inner, .about-grid, .feature-card, .cs-columns { grid-template-columns: 1fr; }
+  .hero-inner, .about-grid, .feature-card, .cs-columns, .mini-grid { grid-template-columns: 1fr; }
   .cs-meta { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; }
   .feature-stats { grid-template-columns: repeat(3, 1fr); }
+  .cs-download { flex-direction: column; align-items: flex-start; }
 }
 
 @media (max-width: 640px) {
