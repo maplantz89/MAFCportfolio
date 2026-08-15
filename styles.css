@@ -340,10 +340,6 @@ h2.section-title {
   color: #f2ede2;
   border-radius: 16px;
   padding: 44px;
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 36px;
-  align-items: center;
   position: relative;
   overflow: hidden;
 }
@@ -367,19 +363,6 @@ h2.section-title {
 }
 
 .feature-card p { color: #d6d3c8; font-size: 15.5px; margin: 0 0 22px; max-width: 54ch; }
-
-.feature-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-
-.feature-stats .stat {
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 10px;
-  padding: 14px 12px;
-  text-align: center;
-}
-
-.feature-stats .num { font-family: var(--serif); font-size: 22px; font-weight: 600; color: #fff; }
-.feature-stats .lbl { font-size: 11.5px; color: #b9b6ac; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 3px; }
 
 .feature-card .btn-primary { background: var(--gold); color: #241704; }
 .feature-card .btn-primary:hover { background: #bf8938; }
@@ -550,17 +533,6 @@ footer.site a { color: var(--ink-soft); }
 
 .cs-download h3 { font-family: var(--serif); color: #fff; font-size: 16.5px; margin: 0 0 6px; }
 .cs-download p { color: #c9c6bc; font-size: 13.8px; margin: 0; max-width: 56ch; }
-.cs-download > div:last-child { text-align: center; flex-shrink: 0; }
-
-.dl-pass {
-  font-size: 12.5px;
-  color: var(--ink-soft);
-  margin: 10px 0 0;
-  text-align: center;
-}
-.dl-pass strong { color: var(--gold); font-family: var(--serif); letter-spacing: 0.02em; }
-.cs-download .dl-pass { color: #b9b6ac; }
-.cs-download .dl-pass strong { color: var(--gold-soft); }
 .cs-download .btn-primary { background: var(--gold); color: #241704; white-space: nowrap; flex-shrink: 0; }
 .cs-download .btn-primary:hover { background: #bf8938; }
 
@@ -747,10 +719,9 @@ table.data tr:last-child td { border-bottom: none; }
 /* ---------- Responsive ---------- */
 
 @media (max-width: 860px) {
-  .hero-inner, .about-grid, .feature-card, .cs-columns, .cs-structure { grid-template-columns: 1fr; }
+  .hero-inner, .about-grid, .cs-columns, .cs-structure { grid-template-columns: 1fr; }
   .cs-meta { grid-template-columns: repeat(2, 1fr); }
   .contact-grid { grid-template-columns: 1fr; }
-  .feature-stats { grid-template-columns: repeat(3, 1fr); }
   .cs-download { flex-direction: column; align-items: flex-start; }
 }
 
