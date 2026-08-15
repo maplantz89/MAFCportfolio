@@ -533,17 +533,6 @@ footer.site a { color: var(--ink-soft); }
 
 .cs-download h3 { font-family: var(--serif); color: #fff; font-size: 16.5px; margin: 0 0 6px; }
 .cs-download p { color: #c9c6bc; font-size: 13.8px; margin: 0; max-width: 56ch; }
-.cs-download > div:last-child { text-align: center; flex-shrink: 0; }
-
-.dl-pass {
-  font-size: 12.5px;
-  color: var(--ink-soft);
-  margin: 10px 0 0;
-  text-align: center;
-}
-.dl-pass strong { color: var(--gold); font-family: var(--serif); letter-spacing: 0.02em; }
-.cs-download .dl-pass { color: #b9b6ac; }
-.cs-download .dl-pass strong { color: var(--gold-soft); }
 .cs-download .btn-primary { background: var(--gold); color: #241704; white-space: nowrap; flex-shrink: 0; }
 .cs-download .btn-primary:hover { background: #bf8938; }
 
