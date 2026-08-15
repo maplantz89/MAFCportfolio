@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cypress Manufacturing Payroll Case Study — Martha Fields-Cypress</title>
+<meta name="description" content="A payroll analyst case study: a payroll register audit, CA meal-premium compliance investigation, and an executive summary, modeled on a real payroll analyst's workweek.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">MC</span>
+      <span>
+        <span class="brand-name">Martha Fields-Cypress</span>
+        <span class="brand-title">Payroll Analyst</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M1 4H17M1 9H17M1 14H17" stroke="#1c2333" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+    <nav class="primary">
+      <a href="index.html#about">About</a>
+      <a href="case-studies.html" class="active">Case Study</a>
+      <a href="index.html#resume">Resume</a>
+      <a href="index.html#contact">Contact</a>
+      <a class="btn btn-primary" href="assets/resume/Martha_Fields-Cypress_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+    </nav>
+  </div>
+</header>
+
+<section class="cs-hero">
+  <div class="wrap">
+    <p class="eyebrow">Featured Project</p>
+    <h1>The Cypress Manufacturing Payroll Analyst Portfolio</h1>
+    <p class="lede">A self-directed portfolio of seven realistic, scenario-based payroll investigations, built to mirror the actual workweek of a payroll analyst — from a first-day register audit through a leadership-ready executive summary.</p>
+    <div class="cs-structure">
+      <div class="cs-step">
+        <div class="cs-step-num">1</div>
+        <h4>The Ask</h4>
+        <p>An email from Sarah Mitchell, the Payroll Manager, describing what needs review.</p>
+      </div>
+      <div class="cs-step">
+        <div class="cs-step-num">2</div>
+        <h4>The Data</h4>
+        <p>Real, imperfect payroll records — plus notes and context to work through.</p>
+      </div>
+      <div class="cs-step">
+        <div class="cs-step-num">3</div>
+        <h4>The Answer</h4>
+        <p>My findings, reasoning, and a documented, defensible recommendation.</p>
+      </div>
+    </div>
+    <div class="cs-meta">
+      <div class="m"><div class="k">Company (simulated)</div><div class="v">Cypress Manufacturing</div></div>
+      <div class="m"><div class="k">Industry</div><div class="v">Medical Device Manufacturing</div></div>
+      <div class="m"><div class="k">Systems</div><div class="v">Excel, ADP Workforce Now (simulated)</div></div>
+      <div class="m"><div class="k">Pay Frequency</div><div class="v">Biweekly</div></div>
+    </div>
+    <div class="cs-download">
+      <div>
+        <h3>Three of the seven, explained below</h3>
+        <p>The Monday Morning Audit, Missing Meal Premiums, and the Executive Review are written out in complete detail on this page. The rest of the case study is included in the full download only.</p>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="assets/case-study/Cypress-Manufacturing-Payroll-Case-Study.xlsx" download>Download Full Case Study (.xlsx)</a>
+        <p class="dl-pass">File is password-protected — password: <strong>Martha</strong></p>
+      </div>
+    </div>
+    <div class="cs-jump">
+      <a href="#cs1">Monday Morning Audit</a>
+      <a href="#cs4">Missing Meal Premiums</a>
+      <a href="#cs7">Executive Payroll Review</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CASE STUDY 1 ============ -->
+<section class="scenario" id="cs1">
+  <div class="wrap">
+    <div class="scenario-head">
+      <div>
+        <h2>The Monday Morning Payroll Audit</h2>
+      </div>
+      <div class="tags">
+        <span class="tag">Payroll Review</span>
+        <span class="tag">Risk Assessment</span>
+        <span class="tag">Payroll Auditing</span>
+        <span class="tag">Documentation</span>
+      </div>
+    </div>
+
+    <div class="cs-columns">
+      <div class="email-block">
+        <p class="from">From: Sarah Mitchell, Payroll Manager</p>
+        <p>Welcome to the payroll team. Before we finalize today's payroll, I'd like you to complete your first payroll register review. Attached is the preliminary payroll register from ADP. Please review the data and identify anything that requires additional investigation.</p>
+        <p>A few reminders: do not assume unusual means incorrect, focus on items that could create employee impact, compliance concerns, or financial inaccuracies, and document your reasoning.</p>
+        <p>Please provide: employees requiring review, reason for review, priority level, and recommended next step.</p>
+      </div>
+      <div class="panel">
+        <h3>Payroll Register — July 13–26, 2026</h3>
+        <table class="data">
+          <thead><tr><th>Employee</th><th>Status</th><th>Reg / OT Hrs</th><th>Gross Pay</th></tr></thead>
+          <tbody>
+            <tr><td>Maria Lopez</td><td>Active</td><td>80 / 6</td><td>$2,451</td></tr>
+            <tr><td>James Carter</td><td>Active</td><td>80 / 0</td><td>$3,360</td></tr>
+            <tr><td>Kevin Patel</td><td>Active</td><td>80 / 32</td><td>$3,224</td></tr>
+            <tr><td>Rachel Kim</td><td>Active (Salary)</td><td>—</td><td>$4,800</td></tr>
+            <tr><td>David Nguyen</td><td>Active</td><td>76 / 0</td><td>$2,204</td></tr>
+            <tr><td>Ashley Brown</td><td>Active (Salary)</td><td>—</td><td>$5,200</td></tr>
+            <tr><td>Michael Reed</td><td>Active</td><td>80 / 18</td><td>$3,972.50</td></tr>
+            <tr><td>Sophia Martinez</td><td>Active</td><td>80 / 0</td><td>$3,600</td></tr>
+            <tr><td>Daniel Lee</td><td><strong>Leave of Absence</strong></td><td>0 / 0</td><td>$2,400</td></tr>
+            <tr><td>Emily Davis</td><td>Active</td><td>80 / 4</td><td>$4,200</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--serif);font-size:16px;margin:0 0 14px;">My Findings</h3>
+
+    <div class="finding-block high">
+      <div class="fb-head"><h4>Daniel Lee — 0 hours, on leave, still paid $2,400</h4><span class="priority-pill high">High Priority</span></div>
+      <p>HR records show a leave of absence beginning July 15, 2026, inside this payroll cycle. The register shows zero regular and zero overtime hours, yet Daniel is still scheduled to receive $2,400 in gross pay. Paid-for-zero-hours is contradictory information on its face — it needs review before payroll is finalized to confirm whether this is intentional (PTO payout, leave pay policy) or a processing error.</p>
+      <p class="fb-label">Recommended action</p>
+      <p>Verify leave status and pay eligibility during leave; review the payroll calculation before approval.</p>
+    </div>
+
+    <div class="finding-block medium">
+      <div class="fb-head"><h4>Unapproved overtime — Kevin Patel, Michael Reed, Maria Lopez, Emily Davis</h4><span class="priority-pill medium">Medium Priority</span></div>
+      <p><strong>Kevin Patel</strong> reported 32 OT hours; ADP notes reference approved weekend coverage for a customer deadline — plausible, but approval and hours should still be confirmed. <strong>Michael Reed</strong> reported 18 OT hours with no supporting documentation at all. <strong>Maria Lopez</strong> (6 hrs) and <strong>Emily Davis</strong> (4 hrs) are smaller amounts, but company policy requires manager approval regardless of size — a small unapproved number is still an unapproved number.</p>
+    </div>
+
+    <div class="finding-block low">
+      <div class="fb-head"><h4>David Nguyen — 76 hours, 4 under a standard period</h4><span class="priority-pill low">Low Priority</span></div>
+      <p>No notes attached explaining the shortfall. Likely an approved absence or a missed shift, but the variance from the standard 80-hour period should be confirmed to make sure it isn't a missed timecard entry.</p>
+    </div>
+
+    <div class="conclusion">
+      <h3>Overall Assessment</h3>
+      <p>No widespread payroll issues were identified in this preliminary review — most employees' records look accurate. The primary follow-up items are overtime verification across four employees and one significant discrepancy involving an employee on leave who is scheduled to receive gross pay despite reporting zero hours. Pending confirmation of the items above, the register otherwise appears ready to proceed through standard approval.</p>
+      <p class="fb-label" style="color:var(--green-tag)">Lessons Learned</p>
+      <p>Unusual activity — large or small — doesn't automatically mean an error, but it does need documentation. Overtime entries should be verified regardless of size to confirm compliance with approval procedures. And discrepancies often only show up when you look at status, hours, and gross pay <em>together</em> — reviewing fields in isolation would have let the Daniel Lee item slip through.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ CASE STUDY 4 ============ -->
+<section class="scenario" id="cs4">
+  <div class="wrap">
+    <div class="scenario-head">
+      <div>
+        <h2>The Missing Meal Premiums</h2>
+      </div>
+      <div class="tags">
+        <span class="tag">CA Wage &amp; Hour Compliance</span>
+        <span class="tag">Exception Investigation</span>
+        <span class="tag">Employee Impact</span>
+      </div>
+    </div>
+
+    <div class="cs-columns">
+      <div class="email-block">
+        <p class="from">From: Sarah Mitchell, Payroll Manager</p>
+        <p>HR received a question from a Manufacturing employee about a missed meal break. Review the attached meal-break exception report and determine whether other employees may have been affected. Don't assume every exception is a payroll error — some may be documented, or have another explanation.</p>
+        <p style="font-size:13px;font-style:italic;">Simplified rule used for this case study: when a California employee is entitled to a meal period and the employer fails to provide it, the employee may be owed one additional hour of pay at their regular rate for that workday.</p>
+      </div>
+      <div class="panel">
+        <h3>Meal-Break Exception Report</h3>
+        <table class="data">
+          <thead><tr><th>Employee</th><th>Shift</th><th>Break</th><th>Premium Paid?</th></tr></thead>
+          <tbody>
+            <tr><td>Maria Lopez</td><td>9.5 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>James Carter</td><td>8 hr</td><td class="flag-low">Taken</td><td>—</td></tr>
+            <tr><td>Kevin Patel</td><td>10 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>Rachel Kim</td><td>9 hr</td><td class="flag-high">Missing</td><td class="flag-low">Yes</td></tr>
+            <tr><td>David Nguyen</td><td>8.5 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>Ashley Brown</td><td>8 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>Michael Reed</td><td>11 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>Sophia Martinez</td><td>9 hr</td><td class="flag-low">Taken</td><td>—</td></tr>
+            <tr><td>Emily Davis</td><td>9.25 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+            <tr><td>Daniel Lee</td><td>12.5 hr</td><td class="flag-high">Missing</td><td>No</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--serif);font-size:16px;margin:0 0 14px;">Working the Exceptions</h3>
+    <div class="panel" style="margin-bottom:26px;">
+      <table class="data">
+        <thead><tr><th>Employee</th><th>Evidence on File</th><th>Needs Review?</th><th>Potential Premium</th></tr></thead>
+        <tbody>
+          <tr><td>Maria Lopez</td><td>No note</td><td class="flag-high">Yes</td><td>$28.50</td></tr>
+          <tr><td>Kevin Patel</td><td>Manager note — approved extended coverage</td><td class="flag-high">Yes</td><td>$31.00</td></tr>
+          <tr><td>David Nguyen</td><td>No note</td><td class="flag-high">Yes</td><td>$29.00</td></tr>
+          <tr><td>Ashley Brown</td><td>Break recorded incorrectly</td><td class="flag-high">Yes</td><td>TBD</td></tr>
+          <tr><td>Michael Reed</td><td>Manager note — interrupted by equipment issue</td><td class="flag-high">Yes</td><td>$35.00</td></tr>
+          <tr><td>Emily Davis</td><td>No note</td><td class="flag-high">Yes</td><td>$50.00</td></tr>
+          <tr><td>Daniel Lee</td><td>Manager note — extended shifts, first week back from leave</td><td class="flag-high">Yes</td><td>$30.00</td></tr>
+          <tr><td>Rachel Kim</td><td>Premium already paid</td><td class="flag-low">No</td><td>Paid correctly</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="conclusion">
+      <h3>Payroll / HR Investigation Summary</h3>
+      <p>Seven employees require further review for potentially missing meal premiums: Maria Lopez, Kevin Patel, David Nguyen, Ashley Brown, Michael Reed, Emily Davis, and Daniel Lee. Manager notes explain <em>what happened</em> during several of these shifts, but none of them confirm whether a make-up break was actually provided later in the shift — so a plausible explanation isn't the same as proof the premium isn't owed. Ashley Brown's record needs corrected break data before it can be assessed at all.</p>
+      <p class="fb-label" style="color:var(--green-tag)">Recommendations</p>
+      <ul class="recommend-list">
+        <li>Review time records for all seven flagged employees to confirm meal-break status and premium eligibility.</li>
+        <li>Correct missing meal premiums for any employee confirmed to be owed one.</li>
+        <li>This pattern spans four departments — Manufacturing, Engineering, HR, Operations, Finance — so it isn't isolated to one team; look company-wide, not just at the original complaint.</li>
+        <li>Improve the quality and consistency of manager notes and break documentation to prevent this ambiguity going forward.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============ CASE STUDY 7 ============ -->
+<section class="scenario" id="cs7">
+  <div class="wrap">
+    <div class="scenario-head">
+      <div>
+        <h2>The Executive Payroll Review</h2>
+      </div>
+      <div class="tags">
+        <span class="tag">Executive Communication</span>
+        <span class="tag">Prioritization</span>
+        <span class="tag">Analyst Judgment</span>
+      </div>
+    </div>
+
+    <div class="cs-columns">
+      <div class="email-block">
+        <p class="from">From: Sarah Mitchell, Payroll Manager — Subject: Monthly Payroll Review for Leadership</p>
+        <p>You've now worked through several types of payroll investigations — take the lead on the October review for leadership. I don't need every individual employee investigated; identify the issues and trends that matter most from a payroll and business perspective, prioritize them, and provide recommendations for Payroll, HR, and Operations.</p>
+      </div>
+      <div class="panel">
+        <h3>Sept 16–30 → Oct 1–15</h3>
+        <table class="data">
+          <thead><tr><th>Metric</th><th>Change</th></tr></thead>
+          <tbody>
+            <tr><td>Gross Payroll</td><td>$1.84M → $1.94M</td></tr>
+            <tr><td>Overtime Cost</td><td class="flag-high">$31,820 → $44,970</td></tr>
+            <tr><td>Meal Premiums</td><td class="flag-med">$1,240 → $2,860</td></tr>
+            <tr><td>Payroll Corrections</td><td class="flag-high">4 → 11</td></tr>
+            <tr><td>Off-Cycle Payments</td><td>1 → 4</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h3 style="font-family:var(--serif);font-size:16px;margin:0 0 14px;">Executive Working Papers</h3>
+
+    <div class="finding-block high">
+      <div class="fb-head"><h4>Overtime surge in Manufacturing &amp; Engineering</h4><span class="priority-pill high">High Priority</span></div>
+      <p>+157 OT hours across the two departments, driving the $13,150 OT cost increase. Both managers cite a genuine demand spike — new customer orders and a product launch — not a control failure.</p>
+      <p class="fb-label">Recommended Action</p>
+      <p>Evaluate whether this is a temporary spike or a staffing/capacity gap; consider a formal high-demand staffing policy rather than defaulting to overtime every cycle.</p>
+    </div>
+
+    <div class="finding-block high">
+      <div class="fb-head"><h4>Payroll corrections nearly tripled (4 → 11)</h4><span class="priority-pill high">High Priority</span></div>
+      <p>Payroll IT confirms no system-wide calculation errors — the increase traces to late time submissions, overtime activity, and employee record changes, not a broken process. Nine employees had time submitted after cutoff this cycle, concentrated in the same high-overtime departments; five of those nine had overtime and two had meal-period exceptions.</p>
+      <p class="fb-label">Recommended Action</p>
+      <p>Since the system is clean, the fix is procedural: reinforce submission deadlines with managers and build a check for late entries before payroll finalizes, rather than catching it after the fact.</p>
+    </div>
+
+    <div class="finding-block medium">
+      <div class="fb-head"><h4>Meal premiums up $1,620; 14 exceptions logged</h4><span class="priority-pill medium">Medium Priority</span></div>
+      <p>8 of 14 exceptions resolved through documentation review, 4 resulted in premiums being paid, 2 remain open. Worth monitoring alongside the overtime trend — both point to the same high-workload departments.</p>
+      <p class="fb-label">Recommended Action</p>
+      <p>Reinforce meal-period policy compliance with the affected teams; monitor whether the rate normalizes once the demand spike passes.</p>
+    </div>
+
+    <div class="finding-block medium">
+      <div class="fb-head"><h4>Rising employee inquiries to Payroll</h4><span class="priority-pill medium">Medium Priority</span></div>
+      <p>HR reports more employee questions about overtime, meal premiums, and corrections this cycle — plausibly downstream of the same late-submission and correction volume above, and a risk to employee trust in payroll if it continues.</p>
+    </div>
+
+    <div class="finding-block low">
+      <div class="fb-head"><h4>No system-wide payroll calculation errors</h4><span class="priority-pill low">Low Priority — Monitor</span></div>
+      <p>Payroll IT confirms the configuration and processing are functioning as expected. This rules out a systemic cause and confirms the investigation should stay focused on process and staffing, not the payroll system itself.</p>
+    </div>
+
+    <div class="conclusion">
+      <h3>Executive Summary — To: Leadership Team</h3>
+      <p>Manufacturing and Engineering both saw a genuine demand increase this cycle — new customer orders and a product launch — which drove a $13,150 rise in overtime costs. Meal premiums more than doubled, plausibly tied to the same higher workload. Payroll corrections rose from 4 to 11, driven mostly by late time submissions concentrated in those same two departments, which in turn likely contributed to the increase in employee questions to Payroll.</p>
+      <p>Leadership should watch these trends closely if they continue, with <strong>higher priority on overtime hours and late-time submissions</strong>, and lower priority on employee inquiries and meal premiums, which look like downstream effects rather than root causes.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-top:18px;">
+        <div>
+          <p class="fb-label" style="color:var(--green-tag)">Payroll</p>
+          <p style="font-size:13.5px;">Work with leadership on reducing late-time submissions; reinforce the meal-premium policy; keep monitoring OT, corrections, and meal premiums as a linked trend.</p>
+        </div>
+        <div>
+          <p class="fb-label" style="color:var(--green-tag)">HR</p>
+          <p style="font-size:13.5px;">Make sure employees and managers clearly understand policies and deadlines; keep responding to inquiries promptly to preserve trust in payroll.</p>
+        </div>
+        <div>
+          <p class="fb-label" style="color:var(--green-tag)">Operations</p>
+          <p style="font-size:13.5px;">Evaluate additional staffing or scheduling support for high-demand periods so overtime isn't the default response to a demand spike.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cs-close">
+  <div class="wrap">
+    <h2>Want to talk through any of these?</h2>
+    <p>I'm happy to walk through my reasoning on any scenario above, or you can grab the complete working Excel file with all seven investigations.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a class="btn btn-primary" href="index.html#contact">Get in Touch</a>
+      <a class="btn btn-ghost" href="assets/case-study/Cypress-Manufacturing-Payroll-Case-Study.xlsx" download>Download Full Case Study</a>
+    </div>
+    <p class="dl-pass" style="margin-top:12px;">File is password-protected — password: <strong>Martha</strong></p>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <span>© 2026 Martha Fields-Cypress</span>
+    <span><a href="index.html">Home</a> · <a href="assets/resume/Martha_Fields-Cypress_Resume.pdf" target="_blank" rel="noopener">Resume</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
