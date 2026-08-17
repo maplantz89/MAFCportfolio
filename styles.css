@@ -141,6 +141,7 @@ nav.primary a:hover, nav.primary a.active { color: var(--navy); }
 .btn-ghost:hover { background: var(--navy); color: #fff; }
 
 nav.primary .btn { padding: 9px 16px; }
+nav.primary .btn-primary { color: #fff; }
 
 .nav-toggle { display: none; }
 
