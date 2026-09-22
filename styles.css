@@ -347,7 +347,7 @@ h2.section-title {
 .case-shot {
   float: right;
   width: 44%;
-  margin: 0 0 20px 28px;
+  margin: 34px 0 20px 28px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: var(--radius);
