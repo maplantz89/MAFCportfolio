@@ -345,12 +345,16 @@ h2.section-title {
 .feature-card .btn-primary:hover { background: #0b7d70; }
 
 .case-shot {
-  margin: 22px 0 0;
+  float: right;
+  width: 44%;
+  margin: 34px 0 20px 28px;
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 14px 14px 18px;
+  position: relative;
+  z-index: 1;
 }
 
 .case-shot img {
@@ -427,6 +431,7 @@ footer.site a { color: var(--ink-soft); }
 @media (max-width: 860px) {
   .hero-inner, .about-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: repeat(2, 1fr); }
+  .case-shot { float: none; width: 100%; margin: 0 0 22px; }
 }
 
 @media (max-width: 640px) {
