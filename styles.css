@@ -344,43 +344,11 @@ h2.section-title {
 .feature-card .btn-primary { background: var(--gold); color: #241704; }
 .feature-card .btn-primary:hover { background: #bf8938; }
 
-/* ---------- Resume section ---------- */
-
-.resume-panel {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 34px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-  flex-wrap: wrap;
-}
-
-.resume-panel .doc-icon {
-  width: 52px;
-  height: 52px;
-  border-radius: 10px;
-  background: var(--gold-soft);
-  color: var(--gold);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-}
-
-.resume-panel-main { display: flex; gap: 18px; align-items: center; }
-
-.resume-panel h3 { font-family: var(--serif); margin: 0 0 4px; font-size: 18px; }
-.resume-panel p { margin: 0; color: var(--ink-soft); font-size: 14px; }
-
 /* ---------- Contact ---------- */
 
 .contact-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 18px;
 }
 
@@ -698,7 +666,7 @@ table.data tr:last-child td { border-bottom: none; }
 @media (max-width: 860px) {
   .hero-inner, .about-grid, .cs-columns, .cs-structure { grid-template-columns: 1fr; }
   .cs-meta { grid-template-columns: repeat(2, 1fr); }
-  .contact-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: repeat(2, 1fr); }
   .cs-download { flex-direction: column; align-items: flex-start; }
 }
 
@@ -730,5 +698,5 @@ table.data tr:last-child td { border-bottom: none; }
   }
   nav.primary.open a { padding: 8px 0; width: 100%; }
   .cs-meta { grid-template-columns: 1fr 1fr; }
-  .resume-panel { flex-direction: column; align-items: flex-start; }
+  .contact-grid { grid-template-columns: 1fr; }
 }
