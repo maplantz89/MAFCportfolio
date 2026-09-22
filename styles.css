@@ -344,6 +344,29 @@ h2.section-title {
 .feature-card .btn-primary { background: var(--gold); color: #fff; }
 .feature-card .btn-primary:hover { background: #0b7d70; }
 
+.case-shot {
+  margin: 22px 0 0;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 14px 18px;
+}
+
+.case-shot img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+.case-shot figcaption {
+  margin-top: 12px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  font-style: italic;
+  text-align: center;
+}
+
 /* ---------- Contact ---------- */
 
 .contact-grid {
